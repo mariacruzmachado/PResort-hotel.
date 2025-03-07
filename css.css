@@ -1,0 +1,93 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Contenedor principal que alinea las tarjetas en fila */
+    .container {
+      display: flex;         /* Coloca los elementos en fila */
+      justify-content: space-around; /* Espacia las columnas */
+      margin: 20px;
+    }
+
+    /* Cada columna (tarjeta) */
+    .card {
+      width: 28%;           /* Ajusta el ancho según desees */
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 16px;
+      box-sizing: border-box;
+      text-align: center;    /* Centra texto e imágenes */
+    }
+
+    /* Imagen de ejemplo */
+    .card img {
+      width: 100%;          /* La imagen se ajusta al ancho de la tarjeta */
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    /* Título de horas */
+    .card .hours {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    /* Nombre del servicio (Restaurante, Gimnasio, Spa) */
+    .card h2 {
+      margin: 0 0 10px 0;
+    }
+
+    /* Párrafo con descripción */
+    .card p {
+      margin: 0;
+    }
+  
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Contenedor principal que alinea las tarjetas en fila */
+    .container {
+      display: flex;         /* Coloca los elementos en fila */
+      justify-content: space-around; /* Espacia las columnas */
+      margin: 20px;
+    }
+
+    /* Cada columna (tarjeta) */
+    .card {
+      width: 28%;           /* Ajusta el ancho según desees */
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 16px;
+      box-sizing: border-box;
+      text-align: center;    /* Centra texto e imágenes */
+    background-color: antiquewhite;
+    }
+
+    /* Imagen de ejemplo */
+    .card img {
+      width: 100%;          /* La imagen se ajusta al ancho de la tarjeta */
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    /* Título de horas */
+    .card .hours {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    /* Nombre del servicio (Restaurante, Gimnasio, Spa) */
+    .card h2 {
+      margin: 0 0 10px 0;
+    }
+
+    /* Párrafo con descripción */
+    .card p {
+      margin: 0;
+    }
